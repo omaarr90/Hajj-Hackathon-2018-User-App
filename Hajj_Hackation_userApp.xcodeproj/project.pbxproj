@@ -15,6 +15,8 @@
 		7000AAC32111C1BB001864B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7000AAC12111C1BB001864B3 /* LaunchScreen.storyboard */; };
 		7000AACE2111C1BB001864B3 /* Hajj_Hackation_userAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AACD2111C1BB001864B3 /* Hajj_Hackation_userAppTests.swift */; };
 		7000AAD92111C1BB001864B3 /* Hajj_Hackation_userAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAD82111C1BB001864B3 /* Hajj_Hackation_userAppUITests.swift */; };
+		7000AAE82111C496001864B3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7000AAE72111C496001864B3 /* Podfile */; };
+		EF48AE62A73680D3D7BD590A /* libPods-Hajj_Hackation_userApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC32CF401C495CA41B6F337 /* libPods-Hajj_Hackation_userApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		293EBABE5135091C09F1A22B /* Pods-Hajj_Hackation_userApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj_Hackation_userApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp.release.xcconfig"; sourceTree = "<group>"; };
 		7000AAB22111C1BA001864B3 /* Hajj_Hackation_userApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hajj_Hackation_userApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7000AAB52111C1BA001864B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7000AAB72111C1BA001864B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		7000AAD42111C1BB001864B3 /* Hajj_Hackation_userAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hajj_Hackation_userAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7000AAD82111C1BB001864B3 /* Hajj_Hackation_userAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj_Hackation_userAppUITests.swift; sourceTree = "<group>"; };
 		7000AADA2111C1BB001864B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7000AAE72111C496001864B3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		780DF5DAD8BDE5DF9055754A /* Pods-Hajj_Hackation_userApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj_Hackation_userApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC32CF401C495CA41B6F337 /* libPods-Hajj_Hackation_userApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hajj_Hackation_userApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF48AE62A73680D3D7BD590A /* libPods-Hajj_Hackation_userApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +83,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606913E54A0B8FBCF6395B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC32CF401C495CA41B6F337 /* libPods-Hajj_Hackation_userApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7000AAA92111C1BA001864B3 = {
 			isa = PBXGroup;
 			children = (
+				7000AAE72111C496001864B3 /* Podfile */,
+				7000AAE62111C1FF001864B3 /* Controllers */,
 				7000AAB42111C1BA001864B3 /* Hajj_Hackation_userApp */,
 				7000AACC2111C1BB001864B3 /* Hajj_Hackation_userAppTests */,
 				7000AAD72111C1BB001864B3 /* Hajj_Hackation_userAppUITests */,
 				7000AAB32111C1BA001864B3 /* Products */,
+				9A3873C92F9F69B1185CBB1E /* Pods */,
+				606913E54A0B8FBCF6395B48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				7000AAB52111C1BA001864B3 /* AppDelegate.swift */,
-				7000AAB72111C1BA001864B3 /* ViewController.swift */,
 				7000AAB92111C1BA001864B3 /* Main.storyboard */,
 				7000AABF2111C1BB001864B3 /* Assets.xcassets */,
 				7000AAC12111C1BB001864B3 /* LaunchScreen.storyboard */,
@@ -128,6 +146,23 @@
 			path = Hajj_Hackation_userAppUITests;
 			sourceTree = "<group>";
 		};
+		7000AAE62111C1FF001864B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7000AAB72111C1BA001864B3 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A3873C92F9F69B1185CBB1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				780DF5DAD8BDE5DF9055754A /* Pods-Hajj_Hackation_userApp.debug.xcconfig */,
+				293EBABE5135091C09F1A22B /* Pods-Hajj_Hackation_userApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7000AADD2111C1BB001864B3 /* Build configuration list for PBXNativeTarget "Hajj_Hackation_userApp" */;
 			buildPhases = (
+				C552F21D0B439F1AD6C9E3C1 /* [CP] Check Pods Manifest.lock */,
 				7000AAAE2111C1BA001864B3 /* Sources */,
 				7000AAAF2111C1BA001864B3 /* Frameworks */,
 				7000AAB02111C1BA001864B3 /* Resources */,
+				7CAF7A0239DB8FDA466FD876 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +271,7 @@
 			files = (
 				7000AAC32111C1BB001864B3 /* LaunchScreen.storyboard in Resources */,
 				7000AAC02111C1BB001864B3 /* Assets.xcassets in Resources */,
+				7000AAE82111C496001864B3 /* Podfile in Resources */,
 				7000AABB2111C1BA001864B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +291,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CAF7A0239DB8FDA466FD876 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C552F21D0B439F1AD6C9E3C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hajj_Hackation_userApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7000AAAE2111C1BA001864B3 /* Sources */ = {
@@ -432,15 +511,13 @@
 		};
 		7000AADE2111C1BB001864B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780DF5DAD8BDE5DF9055754A /* Pods-Hajj_Hackation_userApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,15 +527,13 @@
 		};
 		7000AADF2111C1BB001864B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293EBABE5135091C09F1A22B /* Pods-Hajj_Hackation_userApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -474,11 +549,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -495,11 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -515,11 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -535,11 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
