@@ -49,7 +49,7 @@ struct VendingMachine {
         self.createMarker()
         
         
-        self.anotation = ARAnnotation(identifier: self.addressAr, title: self.addressAr, location: CLLocation(latitude: 21.6163356, longitude: 39.1550793));
+        self.anotation = ARAnnotation(identifier: self.addressAr, title: self.addressAr, location: CLLocation(latitude: (self.marker?.position.latitude)!, longitude: (self.marker?.position.longitude)!));
     }
     
     static func load(list: [JSON]) -> [VendingMachine] {

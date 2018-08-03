@@ -13,9 +13,8 @@ import MapKit
 import HDAugmentedReality
 
 
-class HajjArViewController :UIViewController,ARDataSource,AnnotationViewDelegate ,CLLocationManagerDelegate {
+class HajjArViewController :ARViewController,ARDataSource,AnnotationViewDelegate ,CLLocationManagerDelegate {
     var veningMachines = [VendingMachine]();
-    fileprivate var arViewController: ARViewController!
     
     fileprivate let locationManager = CLLocationManager()
     override func viewDidLoad() {
@@ -23,7 +22,8 @@ class HajjArViewController :UIViewController,ARDataSource,AnnotationViewDelegate
         }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.prepareAr();
+//        self.prepareAr();
+        super.viewWillAppear(animated);
         self.startLocagionUpdate()
     }
     
@@ -33,10 +33,10 @@ class HajjArViewController :UIViewController,ARDataSource,AnnotationViewDelegate
         for vm in self.veningMachines {
             anotations.append(vm.anotation!)
         }
-        if(anotations.count > 0)
+        if(anotations.count > 0 )
         {
-        self.arViewController.setAnnotations(anotations)
-        self.arViewController.reload(reloadType: .annotationsChanged)
+        self.setAnnotations(anotations)
+        self.reload(reloadType: .annotationsChanged)
         }
     }
     
@@ -81,15 +81,17 @@ class HajjArViewController :UIViewController,ARDataSource,AnnotationViewDelegate
     {
 
         
-        arViewController = ARViewController()
-        arViewController.dataSource = self
+//        arViewController = ARViewController()
+        self.cameraView.frame = self.view.frame;
+        self.dataSource = self
 //        arViewController.maxVisibleAnnotations = 30
 //        arViewController.headingSmoothingFactor = 0.05
         self.reloadAntotations()
+        
 
       //  arViewController.setAnnotations(places)
         
-        self.present(arViewController, animated: true, completion: nil)
+//        self.present(arViewController, animated: true, completion: nil)
     }
 
     func didTouch(annotationView: AnnotationView) {

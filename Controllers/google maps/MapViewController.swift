@@ -20,12 +20,12 @@ class MapViewController: UIViewController,CLLocationManagerDelegate {
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet weak var EtLable: UILabel!
     @IBOutlet weak var segment: UISegmentedControl!
+    @IBOutlet weak var arView: UIView!
     fileprivate let locationManager = CLLocationManager()
 
     @IBOutlet weak var seafoodBtn: UIButton!
     @IBOutlet weak var meatBtn: UIButton!
     @IBOutlet weak var chekingBtn: UIButton!
-    @IBOutlet weak var arView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +62,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate {
             }
         }
     }
+    
     func startLocagionUpdate()
     {
         
@@ -76,6 +77,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate {
             self.arView.isHidden = true;
         case 1:
             self.arView.isHidden = false
+            (self.childViewControllers[0] as! HajjArViewController).prepareAr()
         default:
             self.arView.isHidden = true;
 
