@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app use location for AR</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -34,12 +36,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>This app has crashed because it attempted to access privacy-sensitive data without a usage description.  The app&apos;s Info.plist must contain an NSCameraUsageDescription</key>
-	<string>This App use camera for AR</string>
-	<key>NSCameraUsageDescription</key>
-	<string>This App use camera for AR</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>using location for ar</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

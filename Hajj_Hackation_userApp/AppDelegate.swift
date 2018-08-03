@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import GoogleMaps
+import SlideMenuControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         GMSServices.provideAPIKey("AIzaSyBcG6FVjUWUquKFhaJBGwARtj7qlxR_kw0");
-
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let main = storyboard.instantiateViewController(withIdentifier: "MapViewControllerNav");
+//        let menue = storyboard.instantiateViewController(withIdentifier: "MenueTableViewController");
+//        let slideMenuController = SlideMenuController(mainViewController: main, leftMenuViewController: menue, rightMenuViewController: menue)
+//        slideMenuController
+//        slideMenuController.changeLeftViewWidth(20);
+//        self.window?.rootViewController = slideMenuController
+        
+        self.window?.makeKeyAndVisible()
         return true
     }
 

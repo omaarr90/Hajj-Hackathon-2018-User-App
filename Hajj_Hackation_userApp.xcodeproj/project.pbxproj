@@ -16,6 +16,19 @@
 		7000AAD92111C1BB001864B3 /* Hajj_Hackation_userAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAD82111C1BB001864B3 /* Hajj_Hackation_userAppUITests.swift */; };
 		7000AAE82111C496001864B3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7000AAE72111C496001864B3 /* Podfile */; };
 		7000AAED2111CB65001864B3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAEC2111CB65001864B3 /* MapViewController.swift */; };
+		7000AAF821123EBD001864B3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAF521123EBD001864B3 /* ApiManager.swift */; };
+		7000AAF921123EBD001864B3 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAF621123EBD001864B3 /* VendingMachine.swift */; };
+		7000AAFA21123EBD001864B3 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000AAF721123EBD001864B3 /* FoodItem.swift */; };
+		70235BE921124C810026281C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7000AAC42111C1BB001864B3 /* Info.plist */; };
+		70235BEB211271470026281C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70235BEA211271470026281C /* Default-568h@2x.png */; };
+		70235BED211275C30026281C /* VMAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BEC211275C30026281C /* VMAnnotation.swift */; };
+		70235BF1211282610026281C /* Antoation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70235BF0211282610026281C /* Antoation.xib */; };
+		70235BF321129AFB0026281C /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BF221129AFB0026281C /* AnnotationView.swift */; };
+		70235BF521129C330026281C /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BF421129C330026281C /* PlaceAnnotation.swift */; };
+		70235BF72113410C0026281C /* NavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BF62113410C0026281C /* NavgationViewController.swift */; };
+		70235BF921134CB20026281C /* VMSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BF821134CB20026281C /* VMSTableViewController.swift */; };
+		70235BFB21134F180026281C /* HajjArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BFA21134F180026281C /* HajjArViewController.swift */; };
+		70235BFF2113D01D0026281C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235BFE2113D01D0026281C /* ProfileViewController.swift */; };
 		EF48AE62A73680D3D7BD590A /* libPods-Hajj_Hackation_userApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC32CF401C495CA41B6F337 /* libPods-Hajj_Hackation_userApp.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +66,18 @@
 		7000AADA2111C1BB001864B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7000AAE72111C496001864B3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7000AAEC2111CB65001864B3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7000AAF521123EBD001864B3 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7000AAF621123EBD001864B3 /* VendingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		7000AAF721123EBD001864B3 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		70235BEA211271470026281C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		70235BEC211275C30026281C /* VMAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMAnnotation.swift; sourceTree = "<group>"; };
+		70235BF0211282610026281C /* Antoation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Antoation.xib; sourceTree = "<group>"; };
+		70235BF221129AFB0026281C /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		70235BF421129C330026281C /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		70235BF62113410C0026281C /* NavgationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationViewController.swift; sourceTree = "<group>"; };
+		70235BF821134CB20026281C /* VMSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSTableViewController.swift; sourceTree = "<group>"; };
+		70235BFA21134F180026281C /* HajjArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjArViewController.swift; sourceTree = "<group>"; };
+		70235BFE2113D01D0026281C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		780DF5DAD8BDE5DF9055754A /* Pods-Hajj_Hackation_userApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj_Hackation_userApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC32CF401C495CA41B6F337 /* libPods-Hajj_Hackation_userApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hajj_Hackation_userApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +119,9 @@
 		7000AAA92111C1BA001864B3 = {
 			isa = PBXGroup;
 			children = (
+				70235BEA211271470026281C /* Default-568h@2x.png */,
+				70235BE8211248C70026281C /* View */,
+				7000AAF02111DE95001864B3 /* Models */,
 				7000AAE72111C496001864B3 /* Podfile */,
 				7000AAE62111C1FF001864B3 /* Controllers */,
 				7000AAB42111C1BA001864B3 /* Hajj_Hackation_userApp */,
@@ -119,11 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				7000AAB52111C1BA001864B3 /* AppDelegate.swift */,
-				7000AAB92111C1BA001864B3 /* Main.storyboard */,
-				7000AABF2111C1BB001864B3 /* Assets.xcassets */,
-				7000AAC12111C1BB001864B3 /* LaunchScreen.storyboard */,
-				7000AAC42111C1BB001864B3 /* Info.plist */,
-				7000AABC2111C1BA001864B3 /* Hajj_Hackation_userApp.xcdatamodeld */,
 			);
 			path = Hajj_Hackation_userApp;
 			sourceTree = "<group>";
@@ -150,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				7000AAE92111C93B001864B3 /* google maps */,
+				70235BF821134CB20026281C /* VMSTableViewController.swift */,
+				70235BFE2113D01D0026281C /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,8 +183,36 @@
 			isa = PBXGroup;
 			children = (
 				7000AAEC2111CB65001864B3 /* MapViewController.swift */,
+				70235BF62113410C0026281C /* NavgationViewController.swift */,
+				70235BFA21134F180026281C /* HajjArViewController.swift */,
 			);
 			path = "google maps";
+			sourceTree = "<group>";
+		};
+		7000AAF02111DE95001864B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7000AAC42111C1BB001864B3 /* Info.plist */,
+				7000AAF521123EBD001864B3 /* ApiManager.swift */,
+				7000AAF721123EBD001864B3 /* FoodItem.swift */,
+				7000AAF621123EBD001864B3 /* VendingMachine.swift */,
+				70235BEC211275C30026281C /* VMAnnotation.swift */,
+				70235BF421129C330026281C /* PlaceAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70235BE8211248C70026281C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7000AAB92111C1BA001864B3 /* Main.storyboard */,
+				7000AABF2111C1BB001864B3 /* Assets.xcassets */,
+				7000AAC12111C1BB001864B3 /* LaunchScreen.storyboard */,
+				7000AABC2111C1BA001864B3 /* Hajj_Hackation_userApp.xcdatamodeld */,
+				70235BF0211282610026281C /* Antoation.xib */,
+				70235BF221129AFB0026281C /* AnnotationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9A3873C92F9F69B1185CBB1E /* Pods */ = {
@@ -279,8 +332,11 @@
 			files = (
 				7000AAC32111C1BB001864B3 /* LaunchScreen.storyboard in Resources */,
 				7000AAC02111C1BB001864B3 /* Assets.xcassets in Resources */,
+				70235BF1211282610026281C /* Antoation.xib in Resources */,
 				7000AAE82111C496001864B3 /* Podfile in Resources */,
+				70235BE921124C810026281C /* Info.plist in Resources */,
 				7000AABB2111C1BA001864B3 /* Main.storyboard in Resources */,
+				70235BEB211271470026281C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,11 +366,19 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hajj_Hackation_userApp/Pods-Hajj_Hackation_userApp-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/HDAugmentedReality/HDAugmentedReality/Resources/DebugMapViewController.xib",
+				"${PODS_ROOT}/HDAugmentedReality/HDAugmentedReality/Resources/hdar_close.png",
+				"${PODS_ROOT}/HDAugmentedReality/HDAugmentedReality/Resources/hdar_close@2x.png",
+				"${PODS_ROOT}/HDAugmentedReality/HDAugmentedReality/Resources/hdar_close@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DebugMapViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hdar_close.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hdar_close@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hdar_close@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -346,8 +410,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7000AAF921123EBD001864B3 /* VendingMachine.swift in Sources */,
+				70235BF521129C330026281C /* PlaceAnnotation.swift in Sources */,
+				70235BF72113410C0026281C /* NavgationViewController.swift in Sources */,
+				7000AAF821123EBD001864B3 /* ApiManager.swift in Sources */,
 				7000AABE2111C1BA001864B3 /* Hajj_Hackation_userApp.xcdatamodeld in Sources */,
 				7000AAB62111C1BA001864B3 /* AppDelegate.swift in Sources */,
+				70235BF921134CB20026281C /* VMSTableViewController.swift in Sources */,
+				7000AAFA21123EBD001864B3 /* FoodItem.swift in Sources */,
+				70235BFB21134F180026281C /* HajjArViewController.swift in Sources */,
+				70235BF321129AFB0026281C /* AnnotationView.swift in Sources */,
+				70235BFF2113D01D0026281C /* ProfileViewController.swift in Sources */,
+				70235BED211275C30026281C /* VMAnnotation.swift in Sources */,
 				7000AAED2111CB65001864B3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,15 +596,18 @@
 			baseConfigurationReference = 780DF5DAD8BDE5DF9055754A /* Pods-Hajj_Hackation_userApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72J934E5G4;
 				INFOPLIST_FILE = Hajj_Hackation_userApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a8edbd8-f6b2-45bb-8dbc-4a15cb226f18";
+				PROVISIONING_PROFILE_SPECIFIER = cy_wiled_card11;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -541,15 +618,17 @@
 			baseConfigurationReference = 293EBABE5135091C09F1A22B /* Pods-Hajj_Hackation_userApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72J934E5G4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hajj_Hackation_userApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hajj.Hajj-Hackation-userApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
